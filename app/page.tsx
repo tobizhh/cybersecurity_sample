@@ -217,11 +217,7 @@ export default function CybersecurityDemo() {
                       <DataItem label="Mouse Movements" value={mouseData.movements.toString()} />
                       <DataItem label="Mouse Clicks" value={mouseData.clicks.toString()} />
                       <DataItem label="Key Presses" value={keyPresses.toString()} />
-
-                      <h3 className="font-medium text-lg border-b pb-2 mt-4">Device Information</h3>
                       <DataItem label="Battery Status" value={batteryInfo || "Not available"} />
-                      <DataItem label="Device Memory" value={deviceMemory || "Not available"} />
-                      <DataItem label="Network Info" value={networkInfo || "Not available"} />
 
                       <div className="mt-4 p-3 bg-blue-50 rounded-md">
                         <p className="text-sm text-blue-700">
