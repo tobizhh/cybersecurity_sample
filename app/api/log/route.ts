@@ -20,7 +20,7 @@ function calculateBrowserStats() {
       browserName = "Firefox"
     } else if (visitor.userAgent.includes("Safari") && !visitor.userAgent.includes("Chrome")) {
       browserName = "Safari"
-    } else if (visitor.userAgent.includes("Edg")) {
+    } else if (visitor.userAgent.includes("Edge")) {
       browserName = "Edge"
     } else if (visitor.userAgent.includes("Opera") || visitor.userAgent.includes("OPR")) {
       browserName = "Opera"
@@ -55,7 +55,7 @@ function getUniqueValueCounts(key: string) {
   return counts
 }
 
-// Function to log analytics to console
+// Function to log analytics to console0025
 function logAnalytics() {
   console.log("\n===== VISITOR ANALYTICS =====")
   console.log(`Total Visitors: ${visitors.length}`)
